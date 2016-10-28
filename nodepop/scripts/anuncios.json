@@ -1,0 +1,65 @@
+{
+  "anuncios": [
+    {
+      "nombre": "Bicicleta",
+      "venta": true,
+      "precio": 230.15,
+      "foto": "bici.jpeg",
+      "tags": [ "lifestyle", "motor"]
+    },
+    {
+      "nombre": "iPhone 3GS",
+      "venta": false,
+      "precio": 50.00,
+      "foto": "iphone.jpeg",
+      "tags": [ "lifestyle", "mobile"]
+    },
+    {
+      "nombre": "Kawasaki Z",
+      "venta": false,
+      "precio": 550.00,
+      "foto": "kawasaki.jpeg",
+      "tags": [ "lifestyle", "motor"]
+    },
+    {
+      "nombre": "MacBook Pro",
+      "venta": false,
+      "precio": 350.00,
+      "foto": "macbookpro.jpeg",
+      "tags": [ "work"]
+    },
+    {
+      "nombre": "Zapatillas Jordan",
+      "venta": true,
+      "precio": 50.00,
+      "foto": "zapatillas.jpeg",
+      "tags": [ "lifestyle"]
+    },
+    {
+      "nombre": "Google Glass",
+      "venta": true,
+      "precio": 50.00,
+      "foto": "googleglass.jpeg",
+      "tags": [ "lifestyle", "mobile", "work"]
+    },
+    {
+      "nombre": "Mochila",
+      "venta": true,
+      "precio": 35.00,
+      "foto": "mochila.jpeg",
+      "tags": [ "lifestyle", "mobile"]
+    },{
+      "nombre": "Nexus 5",
+      "venta": false,
+      "precio": 89.34,
+      "foto": "nexus.jpeg",
+      "tags": [ "lifestyle", "mobile"]
+    },
+    {
+      "nombre": "Ipad",
+      "venta": true,
+      "precio": 175.00,
+      "foto": "ipad.jpeg",
+      "tags": [ "lifestyle", "mobile", "work"]
+    }]
+}

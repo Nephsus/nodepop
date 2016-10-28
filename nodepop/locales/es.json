@@ -1,0 +1,11 @@
+{
+  "APPLICATION_ERR_GENERIC" : "Lamentamos comunicarle que se ha producido un error, pór favor, inténtelo más tarde.",
+  "APPLICATION_ERR_A01" : "Nombre de usuario incorrecto o vacío.",
+  "APPLICATION_ERR_A02" : "Clave incorrecta o vacía.",
+  "APPLICATION_ERR_A03" : "Email incorrecto.",
+  "APPLICATION_ERR_A04" : "Usuario duplicado.",
+  "APPLICATION_ERR_A05" : "Usuario no registrado.",
+  "APPLICATION_ERR_A06" : "ObjectId inválido.",
+  "HTTP_401_UNAUTHORIZED"   : "Error en la autentificación del token.",
+  "HTTP_403_FORBIDDEN"      : "Acceso prohibido, por favor, identifíquese."
+}

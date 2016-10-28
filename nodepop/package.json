@@ -1,0 +1,30 @@
+{
+  "name": "nodepop",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=nodepop:* nodemon  ./bin/www",
+    "installDB": "node ./scripts/install_bd",
+    "review": "./node_modules/jshint/bin/jshint . --exclude node_modules || true"
+  },
+  "dependencies": {
+    "async": "^2.1.2",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "email-validator": "^1.0.7",
+    "express": "~4.13.4",
+    "i18n-node": "^2.1.5",
+    "jsonwebtoken": "^7.1.9",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.5",
+    "morgan": "~1.7.0",
+    "properties-reader": "0.0.15",
+    "serve-favicon": "~2.3.0",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
+}

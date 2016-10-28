@@ -1,0 +1,11 @@
+{
+  "APPLICATION_ERR_GENERIC" : "Unfortunately, there is an error, please try again later.",
+  "APPLICATION_ERR_A01" : "Wrong or empty user name.",
+  "APPLICATION_ERR_A02" : "Incorrect or empty key.",
+  "APPLICATION_ERR_A03" : "Invalid email.",
+  "APPLICATION_ERR_A04" : "Duplicate user.",
+  "APPLICATION_ERR_A05" : "User not registered.",
+  "APPLICATION_ERR_A06" : "Invalid ObjectId.",
+  "HTTP_401_UNAUTHORIZED"   : "Failed to authenticate token",
+  "HTTP_403_FORBIDDEN"      : "Access denied, please, identify"
+}
