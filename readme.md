@@ -2,6 +2,26 @@
 ==============================================================================
 API para la aplicación de venta y compra de artículos nuevos y de segunda mano.
 
+*Práctica MOD DEVOPS*
+===========================================
+Hola Alberto, he levantado una nueva máquina y he realizado los dos ejercicios de la práctica.
+He comprado el dominio nephsus.net y he colocado el nginx de proxy inverso con node. Puedes probar a autenticarte con este usuario:
+email:  prueba@hotmail.com
+clave:  prueba
+Método POST x-www-formurlencoded: http://www.nephsus.net/apiv1/usuarios/authenticate
+
+La ejecución correcta te devolverá un token, este token lo añades a una cabecera nueva llamada x-access-token y haces un GET a esta url:
+http://www.nephsus.net/apiv1/anuncios
+
+Esto te devolverá el listado de anuncios, y cada anuncion tiene un recurso estático servido por nginx. Y para que lo puedas verificar he 
+añadido la cabecera X-Owner con mi alias de github: Nephsus.
+
+Para el segundo ejercicio puedes acceder a esta ip a través de un navegador y veras como se te despliega una plantilla que he cogido de startbootstrap.com:
+http://34.192.102.128
+
+Un saludo.
+David.
+
 *Instalación*
 ===========================================
 La aplicación contiene un archivo de propiedades situado en config/application.properties. En este fichero 
@@ -49,7 +69,7 @@ Una vez realizado, se pasa a detallar el API.
   **Listado de Anuncios**
   Método que añade un nuevo usuario.
    
-  * url:    http://localhost:3000/apiv1/anuncios
+  * url:    http://www.nephsus.net/apiv1/anuncios
   * método: GET 
   * parámetros in:  Estos parámetros actúan como filtros:
                         1. Por tag ?tag = [work, lifestyle, motor y mobile]
@@ -77,7 +97,7 @@ Una vez realizado, se pasa a detallar el API.
                     "nombre": "MacBook Pro",
                     "venta": false,
                     "precio": 350,
-                    "foto": "http://localhost:3000/images/anuncios/macbookpro.jpeg",
+                    "foto": "http://www.nephsus.net/images/anuncios/macbookpro.jpeg",
                     "tags": ["work"]
                  }
          ]

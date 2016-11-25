@@ -106,12 +106,11 @@ router.get('/', function(req, res, next) {
 function fullUrl(req) {
   return url.format({
     protocol: req.protocol,
-    hostname: req.hostname ,
-    pathname: 'images/anuncios',
-    port: req.app.settings.port
+    hostname: req.get('Host'),
+    pathname: 'images/anuncios'
+    //  port: req.app.settings.port
   });
 }
-
 
 
 

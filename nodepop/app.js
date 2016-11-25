@@ -24,7 +24,8 @@ var errorMiddleWare =  function( err, req, res, next ) {
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-
+// eliminamos la cabecera de respuesta de express
+app.set('x-powered-by',false);
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
