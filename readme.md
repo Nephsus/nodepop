@@ -6,8 +6,11 @@ API para la aplicación de venta y compra de artículos nuevos y de segunda mano
 ===========================================
 Hola Alberto, he levantado una nueva máquina y he realizado los dos ejercicios de la práctica.
 He comprado el dominio nephsus.net y he colocado el nginx de proxy inverso con node. Puedes probar a autenticarte con este usuario:
+
 email:  prueba@hotmail.com
+
 clave:  prueba
+
 Método POST x-www-formurlencoded: http://www.nephsus.net/apiv1/usuarios/authenticate
 
 La ejecución correcta te devolverá un token, este token lo añades a una cabecera nueva llamada x-access-token y haces un GET a esta url:
